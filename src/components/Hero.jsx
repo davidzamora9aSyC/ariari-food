@@ -1,11 +1,11 @@
-import ariariGif from '../assets/images/ARIARI.gif';
+import logo2 from "../assets/images/logo2.png";
 
 const Hero = () => {
     return (
         <section className="h-screen bg-center bg-cover relative flex flex-col items-center justify-center text-center text-white">
             <div className="absolute inset-0 bg-[rgba(0,100,0,0.5)]"></div>
             <div className="relative z-10 px-4">
-                <img src={ariariGif} alt="Logo Ariari" className="w-32 mb-6 mx-auto animate-slowBounce" />
+                <img src={logo2} alt="Logo Ariari" className="w-32 mb-6 mx-auto animate-slowBounce" />
                 <h1 className="text-5xl font-bold leading-tight mb-4 text-shadow-[0_4px_20px_rgba(0,100,0,0.6)]">
                     DEL CAMPO COLOMBIANO A LA PUERTA DE TU NEGOCIO
                 </h1>
